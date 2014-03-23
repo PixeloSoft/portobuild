@@ -7,5 +7,6 @@
 <body>
  	<h1>My heroku App</h1>
  	<p>Finally uploaded</p>
+ 	<p>This is another copy hosted on GitHug </p>
 </body>
 </html>
