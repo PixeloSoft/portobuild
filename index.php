@@ -1,12 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="utf-8" />
-	<title>Heroku</title>
-</head>
-<body>
- 	<h1>My heroku App</h1>
- 	<p>Finally uploaded</p>
- 	<p>This is another copy hosted on GitHug </p>
-</body>
+	<head>
+	  <meta charset="utf-8" />
+		<title>Portobuild</title>
+		<link rel="stylesheet" type="text/css" href="bootstrap\css\bootstrap.css">
+		<link href="fui/css/flat-ui.css" rel="stylesheet">
+	</head>
+	<body>
+		<section id="side-bar">
+			<div id="user-info">
+				
+			</div>
+			<nav id="main-nav"></nav>
+		</section>
+
+		<section id="main-container">
+			
+		</section>
+	</body>
+	<footer>
+		
+	</footer>
 </html>
