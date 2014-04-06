@@ -53,7 +53,13 @@
  ***/
 #main-container {
 	margin-left: 230px;
+}
+body {
 	background: #ecf0f1;
+}
+#data-container {
+	padding: 20px;
+	height: 100%;
 }
 /***
  * Top Title bar Styles
@@ -73,5 +79,9 @@
  ***/
 
 footer {
+	position: absolute;
 	background: #2c3e50;
+	bottom: 0px;
+	width: 100%;
+	z-index: -1;
 }

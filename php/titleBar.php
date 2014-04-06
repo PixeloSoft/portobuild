@@ -9,15 +9,8 @@
     </div> <!-- Search Bar Div end -->
 	<div class="col-lg-4">
 		<div class="btn-group">
-			<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown"> Apply Filters <span class="caret"></span></button>
-		  	<div class="dropdown-menu" role="menu">
-			  	<div class="searchFilters">
-				  	<form action="">
-						<input type="checkbox" name="vehicle" value="personal"> Personal<br>
-						<input type="checkbox" name="vehicle" value="Gendre"> Male
-					</form>
-				</div>
-			</div>
+		  	<button class="btn btn-default" data-toggle="modal" data-target="#myModal">Filters Search</button>
+			
 		</div>
 
 		<div class="btn-group">
