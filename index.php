@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app="portobuild">
 	<?php include 'php/head.php'; ?>
 	<body>
 		<?php include 'php/sidebar.php'; ?>
@@ -7,6 +7,9 @@
 	</body>
 	<div class="clearfix"></div>	
 	<?php include 'php/footer.php'; ?>
+
+	<!-- All JS Files -->
 	<script src="js/jquery-1.11.0.min.js"></script>
 	<script src="bootstrap/js/bootstrap.min.js"></script>
+	<script src="js/navigationScript.js"></script>
 </html>

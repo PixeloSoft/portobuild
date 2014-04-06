@@ -1,5 +1,5 @@
 <section id="titlebar" class="row">
-	<div class="col-lg-4">
+	<div class="col-md-4">
 		<div class="input-group">
 		    <input type="text" class="form-control" placeholder="Search">
 		    <span class="input-group-btn">
@@ -7,27 +7,36 @@
 		    </span>
 	    </div><!-- /input-group -->
     </div> <!-- Search Bar Div end -->
-	<div class="col-lg-4">
-		<div class="btn-group">
-		  	<button class="btn btn-default" data-toggle="modal" data-target="#myModal">Filters Search</button>
-			
+	<div class="pull-left">
+	  	<button class="btn btn-default" data-toggle="modal" data-target="#searchFilter">Filter Search</button>
+		<div class="modal fade" id="searchFilter" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h3>Apply Search Filters</h3>
+					</div>
+					<div class="modal-body">
+						<div class="searchFilters">
+							<label for="gendre">Gendre</label>
+							<select name="gendre" id="gendreDropDown">
+								<option value="male">Male</option>
+			  					<option value="female">Female</option>
+			  					<option value="Other">Other</option>
+							</select>
+						</div>
+					</div>
+					<div class="modal-footer">
+						<button class="btn btn-primary">Search with Filters</button>
+						<button class="btn btn-default" data-dismiss="modal">Close</button>
+					</div>
+				</div>
+			</div>
 		</div>
 
-		<div class="btn-group">
-			<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown"> Apply Filters <span class="caret"></span></button>
-		  	<ul class="dropdown-menu" role="menu">
-		    	<li><a href="#">Action</a></li>
-		    	<li><a href="#">Another action</a></li>
-		    	<li><a href="#">Something else here</a></li>
-		    	<li class="divider"></li>
-		    	<li><a href="#">Separated link</a></li>
-		  	</ul>
-		</div>		
+		<button type="button" class="btn btn-success"><span class="glyphicon glyphicon-inbox"></span> Messages</button>
 	</div>
-	<div class="col-lg-3">
-		
-	</div>
-	<div class="col-lg-3">
-		
+	<div class="pull-right" ng-controller = "UserController">
+		<span class="logout-msg">Hello <em><strong>{{user.fname}} {{user.lname}}</strong></em></span>
+		<button class="btn btn-danger">Sign Out</button>
 	</div>
 </section>
