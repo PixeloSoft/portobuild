@@ -1,22 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 	<?php include 'php/head.php'; ?>
-	
 	<body>
-		<section id="side-bar" class="pull-left">
-			<div id="user-info">
-				<img alt="Profile Picture" src="images/profile.png" class="img-circle">
-				<h5>Usman Tahir</h5>
-			</div>
-			<nav id="main-nav"></nav>
-		</section>
-
-
-		<section id="main-container">
-			This is main container
-		</section>
+		<?php include 'php/sidebar.php'; ?>
+		<?php include 'php/container.php'; ?>
 	</body>
-	<div class="clearfix"></div>
-	
+	<div class="clearfix"></div>	
 	<?php include 'php/footer.php'; ?>
+	<script src="js/jquery-1.11.0.min.js"></script>
+	<script src="bootstrap/js/bootstrap.min.js"></script>
 </html>
