@@ -1,0 +1,15 @@
+#side-bar {
+	left: 0px;
+	width: 15%;
+	height: 100%;
+	background: #34495e;
+	color: white;
+}
+#main-container {
+	padding-left: 15%;
+}
+
+#user-info {
+	padding: 0px;
+	margin: 0 auto;
+}

@@ -1,24 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-	  <meta charset="utf-8" />
-		<title>Portobuild</title>
-		<link rel="stylesheet" type="text/css" href="bootstrap\css\bootstrap.css">
-		<link href="fui/css/flat-ui.css" rel="stylesheet">
-	</head>
+	<?php include 'php/head.php'; ?>
+	
 	<body>
-		<section id="side-bar">
+		<section id="side-bar" class="pull-left">
 			<div id="user-info">
-				
+				<img alt="Profile Picture" src="images/profile.png" class="img-circle">
+				<h5>Usman Tahir</h5>
 			</div>
 			<nav id="main-nav"></nav>
 		</section>
 
+
 		<section id="main-container">
-			
+			This is main container
 		</section>
 	</body>
-	<footer>
-		
-	</footer>
+	<div class="clearfix"></div>
+	
+	<?php include 'php/footer.php'; ?>
 </html>
