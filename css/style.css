@@ -2,7 +2,7 @@
  * Side Bar Styles
  ***/
 #side-bar {
-	position: absolute;
+	position: fixed;
 	padding-top: 30px;
 	min-width: 230px;
 	background: #34495e;
@@ -103,6 +103,20 @@ body {
 		padding-top: 10px;
 	}
 }
+
+ /***
+ * Gallery Styles
+ ***/
+.thumb {
+	margin: 10px;
+	border: 2px solid white;
+	-webkit-box-shadow: 0px 0px 10px 0px rgba(26, 40, 63, 0.5);
+	-moz-box-shadow:    0px 0px 10px 0px rgba(26, 40, 63, 0.5);
+	box-shadow:         0px 0px 10px 0px rgba(26, 40, 63, 0.5);
+	border-radius: 8px;
+}
+
+
  /***
  * Footer Styles
  ***/

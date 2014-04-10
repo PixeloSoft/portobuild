@@ -39,4 +39,5 @@
 		<span class="logout-msg">Hello <em><strong>{{user.fname}} {{user.lname}}</strong></em></span>
 		<button class="btn btn-danger">Sign Out</button>
 	</div>
+	<div class="clearfix"></div>
 </section>

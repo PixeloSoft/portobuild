@@ -6,7 +6,7 @@
 		<?php include 'php/container.php'; ?>
 	</body>
 	<div class="clearfix"></div>	
-	<?php include 'php/footer.php'; ?>
+<!-- 	<?php include 'php/footer.php'; ?> -->
 
 	<!-- All JS Files -->
 	<script src="js/jquery-1.11.0.min.js"></script>
