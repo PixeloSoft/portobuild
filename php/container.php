@@ -12,12 +12,6 @@
 			<a href="#"><img alt="Image Thumbnail" src="images/thumb.png" class="thumb"></a>
 			<a href="#"><img alt="Image Thumbnail" src="images/thumb.png" class="thumb"></a>
 			<a href="#"><img alt="Image Thumbnail" src="images/thumb.png" class="thumb"></a>
-			<a href="#"><img alt="Image Thumbnail" src="images/thumb.png" class="thumb"></a>
-			<a href="#"><img alt="Image Thumbnail" src="images/thumb.png" class="thumb"></a>
-			<a href="#"><img alt="Image Thumbnail" src="images/thumb.png" class="thumb"></a>
-			<a href="#"><img alt="Image Thumbnail" src="images/thumb.png" class="thumb"></a>
-			<a href="#"><img alt="Image Thumbnail" src="images/thumb.png" class="thumb"></a>
-			<a href="#"><img alt="Image Thumbnail" src="images/thumb.png" class="thumb"></a>
 		</div>
 	</div>
 </section>
