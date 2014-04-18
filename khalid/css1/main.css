@@ -1,0 +1,32 @@
+
+@font-face { font-family: 'code_bold'; /*a name to be used later*/ src: url('font/CODE_Bold.otf'); /*URL to font*/}
+@font-face { font-family: 'code_light'; /*a name to be used later*/ src: url('font/CODE_Light.otf'); /*URL to font*/}
+
+.navbar .my_brand{font-family: "code_light";float:left;display:block;padding:8px 2px;margin-left:-20px;font-size:30px;font-weight:200;line-height:1;color:#ffffff;}
+.content_heading{position: absolute;
+    width: 600px;
+    height: 50px;
+    top: 30%;
+    left: 30%;
+    margin-left: -50px; /* margin is -0.5 * dimension */
+    margin-top: -25px; ;color:#ffffff;
+}
+.content_heading h1{font-family:code_light;font-size:72px;font-weight:normal;
+}
+.image_container{
+	position: absolute;
+    height: 300px;
+	width: 1050px;
+    top: 50%;
+    left: 15%;
+    margin-left: -50px; /* margin is -0.5 * dimension */
+    margin-top: -25px;
+}
+.category {
+position:relative;
+display: inline-block;
+float:left;
+padding:10px;
+}
+.btn-next{background-color: #1abc9c; color:#ffffff;}
+.image-container .form-container{margin-bottom:10px;}

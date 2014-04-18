@@ -1,6 +1,6 @@
 <section id="side-bar" class="pull-left">
 	<div id="user-info" ng-controller = "UserController">
-		<img alt="Profile Picture" src="images/{{user.image}}.png" class="img-circle profile-picture">
+		<img alt="Profile Picture" src="{{user.image}}" class="img-circle profile-picture">
 		<h2 class="profile-heading">{{user.fname}} {{user.lname}}</h2>
 		<button class="btn btn-primary">View Public Profile</button>
 	</div>

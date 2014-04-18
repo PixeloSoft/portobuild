@@ -9,7 +9,7 @@
 <!-- 	<?php include 'php/footer.php'; ?> -->
 
 	<!-- All JS Files -->
-	<script src="js/jquery-1.11.0.min.js"></script>
-	<script src="bootstrap/js/bootstrap.min.js"></script>
+	<script src="../_lib/jquery-1.11.0.min.js"></script>
+	<script src="../_lib/bootstrap/js/bootstrap.min.js"></script>
 	<script src="js/navigationScript.js"></script>
 </html>

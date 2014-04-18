@@ -114,9 +114,14 @@ body {
 	-moz-box-shadow:    0px 0px 10px 0px rgba(26, 40, 63, 0.5);
 	box-shadow:         0px 0px 10px 0px rgba(26, 40, 63, 0.5);
 	border-radius: 8px;
+	width: auto;
+	max-width: 198px;
+	height: auto;
+	max-height: 198px;
 }
-
-
+.croped {
+width: 200px; height: 200px; overflow: hidden;
+}
  /***
  * Footer Styles
  ***/
