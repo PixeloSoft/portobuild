@@ -1,5 +1,10 @@
-$(document).ready(function($) {
-	
+$(document).ready(function() {
+    $("a[rel=image_group]").fancybox({
+        openEasing  : 'swing',
+        closeEasing : 'swing',
+        nextEasing  : 'swing',
+        prevEasing  : 'swing'
+    });
 });
 
 /* Angular JS */
