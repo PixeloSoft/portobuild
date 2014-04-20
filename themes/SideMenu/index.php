@@ -126,7 +126,7 @@
 								<h2>About Me</h2>
 							</header>
 							<a href="#" class="image featured"><img src="images/pic08.jpg" alt="" /></a>
-							<p>{{user.aboutMe}}</p>
+							<p style="margin-top: 2em;">{{user.aboutMe}}</p>
 						</div>
 					</section>
 			
