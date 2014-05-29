@@ -11,8 +11,8 @@ $(document).ready(function() {
 });
 
 function addLinks() {
-    var list = $("#links");    
-    if (!list.length) {    
+    var list = $("#links");
+    if (!list.length) {
         list = $('<ul id="links">');
         for (var i = 0; i < this.group.length; i++) {
             $('<li data-index="' + i + '"><label></label></li>').click(function() { $.fancybox.jumpto( $(this).data('index'));}).appendTo( list );

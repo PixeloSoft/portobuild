@@ -1,4 +1,5 @@
-<section id="side-bar" class="pull-left">
+<section id="side-bar" class="pull-left">	
+	<span class="side-bar-toggle" data-toggle="1"> <span class="glyphicon glyphicon-th-list"></span> </span>
 	<div id="user-info" ng-controller = "UserController">
 		<img alt="Profile Picture" src="{{user.image}}" class="img-circle profile-picture">
 		<h2 class="profile-heading">{{user.fname}} {{user.lname}}</h2>
@@ -7,8 +8,8 @@
 
 	<nav id="main-nav">
 		<ul>
-			<li class="active"><span class="glyphicon glyphicon-home" ></span><a href="#"> Home</a></li>
-			<li><span class="glyphicon glyphicon-picture" ></span><a href="#"> Portfolio</a></li>
+			<li><span class="glyphicon glyphicon-home" ></span><a href="#"> Home</a></li>
+			<li class="active"><span class="glyphicon glyphicon-picture" ></span><a href="#"> Portfolio</a></li>
 			
 			<div ng-controller = "NavController">
 				<ul class="gallery-menu">

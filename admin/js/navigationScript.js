@@ -23,7 +23,7 @@ function addLinks() {
 }
 
 function removeLinks() {
-    $("#links").remove();    
+    $("#links").remove();
 }
 
 /* Angular JS */
@@ -46,3 +46,25 @@ myApp.controller('GalleryController', ['$scope', '$http', function($scope, $http
     $scope.galleryImages = data;
   });
 }]);
+
+/* Side Bar Toggle Button */
+function hideSidebar () {
+  $("#side-bar").css("left","-230px");
+  $("#main-container").css("margin-left","0px");
+}
+
+function showSidebar () {
+  $("#side-bar").css("left","0px");
+  $("#main-container").css("margin-left","230px");
+}
+
+$(".side-bar-toggle").click(function(event) {
+  var dataToggle = $(this).data('toggle');
+  if(dataToggle === 1) {
+    hideSidebar();
+    $(".side-bar-toggle").data('toggle', 0);
+  } else if (dataToggle === 0) {
+    showSidebar();
+    $(".side-bar-toggle").data('toggle', 1);
+  }
+});
