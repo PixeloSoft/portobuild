@@ -19,6 +19,11 @@
 				</ul>
 			</div>
 			<li><span class="glyphicon glyphicon-cog" ></span><a href="#"> Settings</a></li>
+			<ul>
+				<li class="galleries">
+					<a href="canvas/">Canvas</a>
+				</li>
+			</ul>
 		</ul>
 	</nav>
 </section>
