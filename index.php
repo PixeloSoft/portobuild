@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html lang="en" ng-app="pb-index">
-	<?php include 'php/head.php'; ?>
+	<?php require 'php/head.php'; ?>
 	<body>
-		<a href="admin/index.php">This is link</a>
+		<?php require 'php/navigation.php'; ?>
+		<?php require 'php/container.php'; ?>
 	</body>
 	<div class="clearfix"></div>
 	
