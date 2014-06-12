@@ -1,3 +1,47 @@
-.navBar {
-	margin-bottom: 0px;
+body {
+	background: #f2f2f2;
+}
+#tagText {
+	margin: 0 auto;
+	padding-top: 20px;
+	width: 400px;
+	text-align: center;
+	color: white;
+}
+.homeContainer {
+	background: #16ab84;
+	width: 100%;
+	height: 741px;
+	margin-top: -20px;
+}
+.homePageIntoImagee{
+	background: url('../images/HomePage_03.png');
+	width: 1365px;
+	height: 594px;
+	margin: 0 auto;
+}
+
+.homePageContent{
+	background: #f2f2f2;
+}
+.bannerImages {
+	margin-left: 13%;
+}
+.bannerImage {
+	padding: 20px;
+	margin: 0 auto;
+}
+.mainNavButtons {
+	width: 500px;
+	margin: 0 auto;
+}
+.mainNavButton {
+	margin: 0 auto;
+	width: 500px;
+	display: block;
+	padding: 10px;
+	margin: 15px;
+}
+.btn-main {
+	background: #16ab84;
 }

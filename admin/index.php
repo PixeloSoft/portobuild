@@ -6,7 +6,6 @@
 		<?php require 'php/container.php'; ?>
 	
 		<div class="clearfix"></div>
-	<!-- 	<?php require 'php/footer.php'; ?> -->
 
 		<!-- All JS Files -->
 		<script src="../_lib/jquery-1.11.0.min.js"></script>
